@@ -1,0 +1,27 @@
+{
+	"LastUpdate": "2023-08-27 15:35:50Z",
+	"Application": [{
+		"Name": "7-Zip *",
+		"Version": "*",
+		"Type": "programs",
+		"SilentArg": "/S"
+	},{
+		"Name": "7-Zip ??.??",
+		"Version": "*",
+		"Type": "msi"
+	},{
+		"Name": "Adobe Creative Cloud",
+		"Version": "*",
+		"Type": "programs",
+		"SilentArg": "-u"
+	},{
+		"Name": "Amazon WorkSpaces",
+		"Version": "*",
+		"Type": "msi"
+	},{
+		"Name": "Microsoft Azure CLI (32-bit)",
+		"Version": "*",
+		"Type": "msi"
+	}
+]
+}

@@ -1,0 +1,1 @@
+if ((Get-Date) -lt (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/schenardie/IntuneTechSupportFiles/main/BulkRemoveApps/JSON/List.json" -Headers @{"Cache-Control"="no-cache"}).LastUpdate) {Exit 1} else {Exit 0}

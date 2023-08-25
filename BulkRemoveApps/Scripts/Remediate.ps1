@@ -11,7 +11,7 @@ foreach ($app in (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/sche
                 #If more than one version is found, loop through them and uninstall them
                 if ($FastPackageReference.Count -gt 1) { 
                     foreach ($FastPackageReference in $FastPackageReference) { 
-                        msiexec /x $FastPackageReference /qn 
+                        Start-process -FilePath msiexec.exe -Wait -ArgumentList "/x $FastPackageReference /qn /norestart"
                     }       
                 }
                 else {

@@ -22,6 +22,16 @@
 		"Name": "Microsoft Azure CLI (32-bit)",
 		"Version": "*",
 		"Type": "msi"
+	},{
+		"Name": "WebAdvisor by McAfee",
+		"Version": "*",
+		"Type": "programs",
+		"SilentArg": "/s"
+	},{
+		"Name": "McAfee",
+		"Version": "*",
+		"Type": "programs",
+		"SilentArg": "/uninstall /s"
 	}
 ]
 }
